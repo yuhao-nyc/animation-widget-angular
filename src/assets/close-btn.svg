@@ -1,0 +1,21 @@
+
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="182.180345%" x2="-3.15245064%" y2="-2.17719559%" id="linearGradient-1">
+            <stop stop-color="#2C2C64" offset="0%"></stop>
+            <stop stop-color="#4A90F5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="40.9254342%" y1="0%" x2="40.9254342%" y2="139.052402%" id="linearGradient-2">
+            <stop stop-color="#F9FAFC" offset="0%"></stop>
+            <stop stop-color="#DFECFC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Screen-2" transform="translate(-352.000000, -423.000000)">
+            <g id="Buttons" transform="translate(364.500000, 435.500000) scale(-1, 1) translate(-364.500000, -435.500000) translate(352.000000, 423.000000)">
+                <rect id="Rectangle-2" stroke-opacity="0.1" stroke="#000000" fill="url(#linearGradient-1)" x="0.5" y="0.5" width="24" height="24" rx="7"></rect>
+                <polygon id="keyboard-right-arrow-button-(1)" fill="url(#linearGradient-2)" transform="translate(12.000000, 12.500000) rotate(-180.000000) translate(-12.000000, -12.500000) " points="10.121 8.398 9 9.519 12.68 13.199 9 16.878 10.121 18 14.922 13.199"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,83 @@
+<div class="mx-auto dm-widget-container">
+  
+  <div 
+    *ngIf="pageStacked"
+    class="row pt-4 elastic-container-stacked"
+    [class.elastic-left]="pageElastic"
+  >
+    <div class="col-6 widget-mg-top widget-heading">
+      <h5>Sub-heading</h5>
+      <h2>Lorem ipsum dolor consectetur tempor incididunt?</h2>
+      <p class="mt-4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      </p>
+    </div>
+
+    <div class="col-4 ml-4 widget-mg-top">
+      <div 
+          class="slides-open-btn"
+          (click)="showPageDetails()" 
+      >
+          <img src="./assets/open-btn.svg">
+      </div>
+
+      <div class="slides-container">
+          <div (mouseover)="showPageDetails()">
+              <img src="./assets/matthew-brodeur-62444.jpg">
+          </div>
+
+          <div>
+              <img src="./assets/samsommer-72299.jpg">
+          </div>
+
+          <div>
+              <img src="./assets/ravi-pinisetti-64168.jpg">
+          </div>
+
+          <div>
+              <img src="./assets/luca-bravo-112050.jpg">
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div 
+    *ngIf="pageDetails" 
+    class="elastic-container-detail"
+    [class.elastic-right]="pageDetails"
+  >
+    <div 
+      class="slides-close-btn"
+      (click)="showStackedPage()"
+    >
+      <img src="./assets/close-btn.svg" >
+    </div>
+
+    <h5>Sub-heading</h5>
+    <h3>Lorem ipsum dolor consectetur tempor incididunt?</h3>
+
+    <div class="row mt-4">
+        <div class="col-3">
+            <div class="slides-container-full">
+                <img src="./assets/matthew-brodeur-62444.jpg">
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="slides-container-full">
+                <img src="./assets/samsommer-72299.jpg">
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="slides-container-full">
+                <img src="./assets/ravi-pinisetti-64168.jpg">
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="slides-container-full">
+                <img src="./assets/luca-bravo-112050.jpg">
+            </div>
+        </div>
+    </div>
+  </div>
+
+</div>
